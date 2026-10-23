@@ -1,0 +1,18 @@
+    /* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* variaveis */
+:root{
+    --color-purple900: #10002B;
+    --color-purble800: #240046;
+    --color-purble700: #3C096C;
+    --color-purble600: #5A189A;
+    --color-purble500: #7B2CBF;
+    --color-purble400: #9D4EDD;
+    --color-purble300: #C77DFF;
+}
