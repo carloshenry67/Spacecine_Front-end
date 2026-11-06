@@ -9,10 +9,14 @@
 /* variaveis */
 :root{
     --color-purple900: #10002B;
-    --color-purble800: #240046;
-    --color-purble700: #3C096C;
-    --color-purble600: #5A189A;
-    --color-purble500: #7B2CBF;
-    --color-purble400: #9D4EDD;
+    --color-purple800: #240046;
+    --color-purple700: #3C096C;
+    --color-purple600: #5A189A;
+    --color-purple500: #7B2CBF;
+    --color-purple400: #9D4EDD;
     --color-purble300: #C77DFF;
+    --color-white: #FFFFFF;
+
+    --font-title: "Bebas Neue", sans-serif;
+    --font-body: "Inter", sans-serif;
 }
