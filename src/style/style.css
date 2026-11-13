@@ -67,7 +67,7 @@ main p{
     text-decoration:none;
     font-family: var(--font-title);
     font-size: 17px;
-    text-tranform: uppercase;
+    text-transform: uppercase;
     padding: 5px 30px;
     border-radius: 5px;
 }

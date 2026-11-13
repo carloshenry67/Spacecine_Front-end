@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Carlos Henrique">
-    <meta name="description" content="Página sobre cinema, desenvolvido no curso de LIMA do SENAI. O objetivo é aprender a contruir página web.">
+    <meta name="description"
+        content="Página sobre cinema, desenvolvido no curso de LIMA do SENAI. O objetivo é aprender a contruir página web.">
     <meta name="keywords" content="HTML, CSS, Filmes, cinema">
     <title>SpaceCine</title>
     <link rel="stylesheet" href="./src/style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Cabeçalho -->
-     <header>
+    <header>
 
         <!-- grupo 1 -->
-         <img src="./src/assets/images/Logo.svg" alt="Logo do SpaceCine">
+        <img src="./src/assets/images/Logo.svg" alt="Logo do SpaceCine">
         <!-- grupo 2 -->
         <nav>
             <ul class="menu">
@@ -29,22 +34,49 @@
             </ul>
         </nav>
         <!-- grupo 3 -->
-         <nav>
-             <a href="" class="btnlogin">Login</a>
+        <nav>
+            <a href="" class="btnlogin">Login</a>
         </nav>
 
-     </header>
+    </header>
 
-     <!-- MAIN -->
-      <main>
-         <h1>Vingadores <span class="text-highlight">Ultimato</span></h1>
-         <p>Prepare-se para muita ação, emoção e heróis reunidos em uma aventura inesquecível! Vingadores: quando o mundo precisa de heróis, eles entram em ação para salvar o dia!</p>
+    <!-- MAIN -->
+    <main>
+        <h1>Vingadores <span class="text-highlight">Ultimato</span></h1>
+        <p>Prepare-se para muita ação, emoção e heróis reunidos em uma aventura inesquecível! Vingadores: quando o mundo
+            precisa de heróis, eles entram em ação para salvar o dia!</p>
         <nav>
             <a href="" class="btnPrimary">Comprar agora</a>
             <a href="" class="btnSegundary">Ver mais</a>
         </nav>
-      </main>
-      
-    
+    </main>
+
+    <!-- Section -->
+    <section class="section-showing">
+        <div class="showing-content">
+            <span>Agora no space cine</span>
+            <h2>Filmes em Cartaz</h2>
+        </div>
+
+        <div class="showing-container-movies">
+            <div class="card-movies">
+                <img src="./src/assets/images/Movie1.svg" alt="Capa do filme Para todos os garotos..." loading="lazy">
+                <h3>Para todos os garotos...</h3>
+                <div class="movies-details">
+                    <span>Romance - 1h 40m</span>
+                    <div class="movie-avaliation">
+                        <img src="./src/assets/images/Icon-Star.svg" alt="Estrela" loading="lazy">
+                        <span>2.9</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
 </body>
+
 </html>
